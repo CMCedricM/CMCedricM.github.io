@@ -19,7 +19,8 @@ nav{
 
 .nav-bar{
     text-decoration: none;
-    padding:5%; 
+    padding-left:5%;
+    padding-right:5%; 
     color:white; 
 }
 #self-image-div{
