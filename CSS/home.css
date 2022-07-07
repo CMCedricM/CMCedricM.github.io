@@ -2,11 +2,19 @@
     margin:0px; 
     padding: 0px;
 }
+
 nav{
     margin-top: 20px;
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+.nav-bar:hover{
+    background:linear-gradient(to right, #FF886A, #FCF6CF);
+    width: fit-content;
+    height: fit-content;
+    color: black;
 }
 
 .nav-bar{
@@ -49,4 +57,13 @@ nav{
     
     font-size: 20px; 
     opacity: 5;
+}
+
+
+.link-hover{
+    color: white;
+}
+.link-hover:hover{
+    background:linear-gradient(to right, #FF886A, #FCF6CF );
+    color:black;
 }
