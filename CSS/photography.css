@@ -8,11 +8,22 @@
 }
 
 .photo-span:hover{
-    border-style: solid;
-    border-color: blueviolet;
+    /* border-style: solid; */
+    /* border-color: blueviolet; */
+    width: 350px; 
+    height: 263px; 
+
+
+
 }
 
 .image{
     width: 300px; 
     height: 225px; 
+}
+
+
+.photo-span .image:hover{
+    width: 350px; 
+    height: 263px;
 }
