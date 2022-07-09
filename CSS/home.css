@@ -5,6 +5,7 @@
 
 nav{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
     color: white;
@@ -40,6 +41,8 @@ nav{
 }
 
 .main-body{
+    text-align: center;
+    color: white;
     background: linear-gradient(to left bottom, #0F0C29, #302B63);
 }
 

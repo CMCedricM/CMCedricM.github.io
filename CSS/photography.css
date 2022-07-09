@@ -1,0 +1,18 @@
+.photo-span{
+    border-style: none;
+    display: inline-block;
+    width: 300px; 
+    height: 225px;
+    margin: 20px;
+    transform: translate(0%, -10%);
+}
+
+.photo-span:hover{
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.image{
+    width: 300px; 
+    height: 225px; 
+}
