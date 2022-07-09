@@ -4,7 +4,8 @@
 }
 
 nav{
-    margin-top: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
@@ -26,7 +27,7 @@ nav{
 }
 #self-image-div{
     display: block;
-    margin-top: 50px;
+    margin-top: 60px;
     align-items: center;
     margin-bottom: 20px;
 }
