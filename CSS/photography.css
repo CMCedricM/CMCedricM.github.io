@@ -7,15 +7,11 @@
     transform: translate(0%, -10%);
 }
 
-.photo-span:hover{
-    /* border-style: solid; */
-    /* border-color: blueviolet; */
+.photo-span:hover{ 
     width: 350px; 
-    height: 263px; 
-
-
-
+    height: 263px;
 }
+
 
 .image{
     width: 300px; 
@@ -23,7 +19,34 @@
 }
 
 
-.photo-span .image:hover{
+.photo-span .img-text{
+    display: none; 
+    position: absolute; 
+    background: black;
+    opacity: 0.4;
+    bottom: 10px; 
+    width: 300px;
+    text-align: left;
+}
+
+
+.photo-span:hover .image{
     width: 350px; 
     height: 263px;
+}
+
+
+.photo-span:hover .img-text{
+    display: block;
+    position: absolute;
+    padding-left:10px;
+    background: black; 
+    height: 25px;
+    opacity: 0.8;
+    width: 340px; 
+    bottom: 10px;
+    font-size: 13pt;
+    text-align: left;
+    color: white;
+    font-weight: bold;
 }
