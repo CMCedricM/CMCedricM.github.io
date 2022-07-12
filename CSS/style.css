@@ -80,3 +80,8 @@ nav{
     color:white; padding-bottom: 20px; 
     margin-bottom: 0px;
 }
+
+#self-image-div #self-image:hover{
+    width: 350px; 
+    height: 421px; 
+}
