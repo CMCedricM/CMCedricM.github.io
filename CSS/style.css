@@ -1,7 +1,9 @@
 *{
     margin:0px; 
     padding: 0px;
+    border-radius: 5px;
 }
+
 
 nav{
     padding-top: 20px;
@@ -45,7 +47,7 @@ nav{
 .main-body{
     text-align: center;
     color: white;
-    background: linear-gradient(to left bottom, #0F0C29, #302B63);
+    background: linear-gradient(to left , #0F0C29, #302B63);
 }
 
 #about-me-body{
